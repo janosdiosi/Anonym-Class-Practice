@@ -9,7 +9,7 @@ public class AnonymClassPractice {
         Animal myAnimal = new Animal();
         myAnimal.makeNoise();
         
-        Animal bigfoot = new Animal() {                    // anonymus subclass
+        Animal bigfoot = new Animal() {                    // anonymus object + subclass
         @Override
         public void makeNoise() {
             System.out.println(" Grawlneenhehehe!!!");
